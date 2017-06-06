@@ -1,5 +1,3 @@
-import java.io.File
-
 /**
  * Created by Administrator on 2017/5/23.
  */
@@ -13,10 +11,3 @@ object Resource{
 }
 
 
-fun test(){
-    val  files =File("Test").listFiles()
-    println(files?.size?:"empty")
-}
-fun main(args: Array<String>) {
-
-}

@@ -185,27 +185,27 @@ fun foo(a: Int = 0, b: String = "") {
     }
     println(map["a"])
 }
-fun main(args: Array<String>) {
-
-    loop()
-    StringPattern()
-    println("-----------------")
-    println("maxof ${maxOf(7, 88)}")
-
-    println("maxof ${maxof2(7, 88)}")
-
-    println("printProduct ${printProduct("78", "32")}")
-
-    println("printProduct ${printProduct("78", "32")}")
-    println("printProductNull ${printProductNull("78", "32")}")
-
-    println("getStringLenget ${getStringLength("isisii")}")
-    println("getStringLenget ${getStringLength(5888)}")
-    range()
-    rangeList()
-    foo()
-
-}
+//fun Day07.main(args: Array<String>) {
+//
+//    loop()
+//    StringPattern()
+//    println("-----------------")
+//    println("maxof ${maxOf(7, 88)}")
+//
+//    println("maxof ${maxof2(7, 88)}")
+//
+//    println("printProduct ${printProduct("78", "32")}")
+//
+//    println("printProduct ${printProduct("78", "32")}")
+//    println("printProductNull ${printProductNull("78", "32")}")
+//
+//    println("getStringLenget ${getStringLength("isisii")}")
+//    println("getStringLenget ${getStringLength(5888)}")
+//    range()
+//    rangeList()
+//    foo()
+//
+//}
 
 
 

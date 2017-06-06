@@ -1,6 +1,4 @@
 
-import java.nio.file.Files
-import java.nio.file.Paths
 
 /**
  * Created by Administrator on 2017/5/24.
@@ -57,24 +55,24 @@ fun theAnswer() =42
          print("forward")
      }
 }
-fun main(args: Array<String>) {
-    print("arrayOfMinusOnes(10) ${arrayOfMinusOnes(10)}")
-    val myTurtle =Turtle()
-    with(myTurtle){//画一个 100像素的正方形
-        for (i in 1..4){
-            forward(100.0)
-            turn(90.0)
-        }
-        penUp()
-    }
-    val  stream =Files.newInputStream(Paths.get("./res/file.txt"))
-    stream.buffered().reader().use {
-        reader ->
-        println(reader.readText())
-    }
-
-//    val  b :Boolean?=
-
-
-}
+//fun Day07.main(args: Array<String>) {
+//    print("arrayOfMinusOnes(10) ${arrayOfMinusOnes(10)}")
+//    val myTurtle =Turtle()
+//    with(myTurtle){//画一个 100像素的正方形
+//        for (i in 1..4){
+//            forward(100.0)
+//            turn(90.0)
+//        }
+//        penUp()
+//    }
+//    val  stream =Files.newInputStream(Paths.get("./res/file.txt"))
+//    stream.buffered().reader().use {
+//        reader ->
+//        println(reader.readText())
+//    }
+//
+////    val  b :Boolean?=
+//
+//
+//}
 class Person(id:Int,name:String)
