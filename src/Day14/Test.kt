@@ -43,14 +43,15 @@ fun main(args: Array<String>) {
     println(student.age)
     println(student)
 
-    println(1 shl 2)
+    println(1 a 2)
 
-    println(9.shl(2))
+    println(9.a(2))
+}
+//中缀表示法
+infix fun Int.a(x:Int):Int{
+    return x*1
 }
 
-infix fun Int.sh1(x:Int):Int{
-    return (x*Math.random()).toInt()
-}
 
 val lazyValue: String by lazy {
     println("computed")
